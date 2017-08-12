@@ -82,7 +82,7 @@ public function toFirebase($notifiable)
 - `getPackageName`: To Set `restricted_package_name`.
 
 When sending to specific device(s), make sure your notifiable entity has `routeNotificationForFirebase` method defined:
-> **Note:** You can send fo many devices by return an array of tokens.
+> **Note:** You can send to many devices by return an array of tokens.
 
 ```php
 /**

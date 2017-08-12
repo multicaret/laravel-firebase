@@ -1,0 +1,36 @@
+{
+    "name": "liliom/laravel-firebase",
+    "description": "Laravel FCM (Firebase Cloud Messaging) Notification Channel",
+    "keywords": [
+        "laravel",
+        "fcm",
+        "firebase",
+        "notification",
+        "channel",
+        "notification-channel"
+    ],
+    "authors": [
+        {
+            "name": "Hussam Abd",
+            "email": "hussam3bd@liliom.co"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Liliom\\Firebase\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Liliom\\Firebase\\FirebaseServiceProvider"
+            ]
+        }
+    },
+}

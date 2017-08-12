@@ -1,5 +1,5 @@
 # laravel-firebase
-This package makes it easy to send notifications using Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) (FCM) with Laravel Notification Channel.
+This package makes it easy to send notifications using [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) (FCM) with Laravel Notification Channel.
 
 ## Installation
 

@@ -71,15 +71,15 @@ public function toFirebase($notifiable)
 
 ## Available methods:
 
-- `getData`: To Set `data`.
-- `getPriority`: To Set `priority`.
-- `getTimeToLive`: To Set `time_to_live`.
-- `getCollapseKey`: To Set `collapse_key`.
-- `getNotification`: To Set `notification`.
-- `getCondition`: To Set `condition`.
-- `getContentAvailable`: To Set `content_available`.
-- `getMutableContent`: To Set `mutable_content`.
-- `getPackageName`: To Set `restricted_package_name`.
+- `setData`: To Set `data`.
+- `setPriority`: To Set `priority`.
+- `setTimeToLive`: To Set `time_to_live`.
+- `setCollapseKey`: To Set `collapse_key`.
+- `setNotification`: To Set `notification`.
+- `setCondition`: To Set `condition`.
+- `setContentAvailable`: To Set `content_available`.
+- `setMutableContent`: To Set `mutable_content`.
+- `setPackageName`: To Set `restricted_package_name`.
 
 When sending to specific device(s), make sure your notifiable entity has `routeNotificationForFirebase` method defined:
 > **Note:** You can send to many devices by return an array of tokens.

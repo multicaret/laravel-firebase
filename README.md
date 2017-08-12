@@ -59,13 +59,13 @@ public function toFirebase($notifiable)
             'title' => 'Notification title',
             'body' => 'Notification body',
             'sound' => '', // Optional
-	        'icon' => '', // Optional
-	        'click_action' => '' // Optional
+	    'icon' => '', // Optional
+	    'click_action' => '' // Optional
         ])
         ->setData([
-	        'param' => 'zxy' // Optional
-	    ])
-	    ->setPriority('high'); // Default is 'normal'
+	    'param' => 'zxy' // Optional
+	])
+	->setPriority('high'); // Default is 'normal'
 }
 ```
 

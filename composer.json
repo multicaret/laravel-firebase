@@ -32,5 +32,6 @@
                 "Liliom\\Firebase\\FirebaseServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable"
 }

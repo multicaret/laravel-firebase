@@ -290,7 +290,7 @@ class FirebaseMessage
         }
 
         foreach (self::OPTIONS_GETTERS as $function => $arrayKey) {
-            if (method_exists($this, $function) && count($this->$function())) {
+            if (method_exists($this, $function) && !empty($this->$function())) {
                 $payload[$arrayKey] = $this->$function();
             }
         }

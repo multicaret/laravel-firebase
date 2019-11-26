@@ -40,7 +40,7 @@ Les's create a notification using artisan commend:
 php artisan make:notification FirebaseNotification
 ```
 
-Now you can use `firebase` channel in your `vie()` mothod.
+Now you can use `firebase` channel in your `via()` method.
 
 ```php
 public function via($notifiable)
